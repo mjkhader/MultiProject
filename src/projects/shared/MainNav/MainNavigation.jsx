@@ -16,6 +16,9 @@ function MainNavigation() {
             <li>
               <Link to="/TikTakToe">Tik-Tak-Toe</Link>
             </li>
+            <li>
+              <Link to="/InvestmentCalculator">Investment Calculator</Link>
+            </li>
           </ul>
         </nav>
       </header>

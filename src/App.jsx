@@ -1,3 +1,4 @@
+import InvestmentCalculator from "./projects/InvestmentCalculator/Main/InvestmentCalculator";
 import ReactEssential from "./projects/ReactEssentials/Main/ReactEssential";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./projects/shared/MainNav/RootLayout";
@@ -10,6 +11,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/ReactEssentials", element: <ReactEssential /> },
       { path: "/TikTakToe", element: <TikTakToe /> },
+      { path: "/InvestmentCalculator", element: <InvestmentCalculator /> },
     ],
   },
 ]);
