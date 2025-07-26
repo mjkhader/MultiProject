@@ -5,9 +5,9 @@ export default function GameOver({winner ,onRestart}) {
         <h2>Game Over!</h2>
         <p>{winner && <p>{winner} Won!</p> } </p>
         <p>{!winner && <p>it's a draw!</p> } </p>
-        <p>
+        <div>
             <button onClick={onRestart}>Rematch!</button>
-        </p>
+        </div>
     </div>
   )
 }
